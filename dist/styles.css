@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+.cats {
+  text-align: center; }
+  .cats .loading {
+    color: black;
+    font-style: italic;
+    font-size: 2.5em; }
+  .cats .vertical-padd {
+    height: 200px; }
+  .cats .cat-list {
+    list-style: none;
+    column-width: 320px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto; }
+    .cats .cat-list .cat-item {
+      max-width: 300px;
+      min-height: 250px;
+      border: 1px solid #000;
+      vertical-align: center;
+      display: inline-block;
+      margin: 10px;
+      padding: 10px; }
+    .cats .cat-list .cat-fact {
+      font-size: 0.8em;
+      font-style: italic; }
+    .cats .cat-list .cat-image {
+      max-width: 250px; }
+    .cats .cat-list .delete-cat {
+      text-decoration: none;
+      color: red;
+      text-transform: uppercase; }
+  .cats .more-cats {
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-size: 1.5em; }
+  .cats .cat-enter {
+    opacity: 0.01; }
+  .cats .cat-enter.cat-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in; }
+  .cats .cat-leave {
+    opacity: 1; }
+  .cats .cat-leave.cat-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in; }
