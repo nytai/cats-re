@@ -15,6 +15,9 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".jsx", ".scss", ".css"],
+    alias: {
+      js: path.resolve(__dirname, "src", "js")
+    }
   },
   module: {
     loaders: [

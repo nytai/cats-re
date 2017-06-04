@@ -16,9 +16,11 @@
   "dependencies": {
     "bs-director": "^0.0.1",
     "bs-fetch": "github:buckletypes/bs-fetch",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "reason-react": "https://github.com/reasonml/reason-react.git"
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-transition-group": "^1.1.3",
+    "reason-react": "https://github.com/reasonml/reason-react.git",
+    "xml-parser": "^1.2.1"
   },
   "devDependencies": {
     "babel-polyfill": "^6.23.0",
